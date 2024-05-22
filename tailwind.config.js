@@ -7,8 +7,7 @@ export default {
         nunito: ["Nunito"],
       },
       colors: {
-        primary: "#ff6e6c",
-        secondary: "#67568c",
+        primary: "#67568c",
       },
     },
   },

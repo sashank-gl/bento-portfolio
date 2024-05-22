@@ -10,10 +10,10 @@ import { ref, onMounted, onUnmounted } from "vue";
 import Mobile from "./Mobile.vue";
 import Desktop from "./Desktop.vue";
 
-const isMobileView = ref(window.innerWidth <= 768);
+const isMobileView = ref(window.innerWidth < 1280);
 
 const updateView = () => {
-  isMobileView.value = window.innerWidth <= 768;
+  isMobileView.value = window.innerWidth < 1280;
 };
 
 onMounted(() => {
